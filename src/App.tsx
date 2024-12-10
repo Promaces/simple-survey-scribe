@@ -12,7 +12,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/simple-survey-scribe">
         <Routes>
           <Route path="/" element={<Index />} />
         </Routes>
